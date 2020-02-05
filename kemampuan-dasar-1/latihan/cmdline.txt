@@ -1,0 +1,109 @@
+1. Penggunaan CD..
+
+PS C:\Users\user> cd..
+
+PS C:\Users> cd..
+
+PS C:\> cd..
+
+2. Penggunaan fungsi dir..
+PS C:\> dir
+    Directory: C:\
+
+
+Mode                LastWriteTime         Length Name                                                                                
+----                -------------         ------ ----                                                                                
+d-----        4/24/2019  11:33 PM                DRIVERS                                                                             
+d-r---       12/18/2019   3:17 AM                Program Files                                                                       
+d-r---       11/20/2019   3:43 PM                Program Files (x86)                                                                 
+d-r---        4/11/2019   1:18 AM                Users                                                                               
+da----        1/28/2020   8:20 PM                Windows                                                                             
+d-----        1/29/2020   4:30 AM                Windows10Upgrade                                                                    
+
+
+PS C:\> date
+
+Wednesday, January 29, 2020 5:10:31 AM
+
+
+
+PS C:\> echo
+cmdlet Write-Output at command pipeline position 1
+Supply values for the following parameters:
+InputObject[0]: 1
+InputObject[1]: 2
+InputObject[2]: 3
+InputObject[3]: 4
+InputObject[4]: 5 
+InputObject[5]: 6
+InputObject[6]: echo off
+InputObject[7]: 
+1
+2
+3
+4
+5 
+6
+echo off
+
+PS C:\> ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::688e:ed2b:5325:1260%5
+   IPv4 Address. . . . . . . . . . . : 192.168.1.4
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::1%5
+                                       192.168.1.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Connection-specific DNS Suffix  . : 
+   IPv6 Address. . . . . . . . . . . : 2001:0:2851:782c:20d5:965:dbaf:a7c
+   Link-local IPv6 Address . . . . . : fe80::20d5:965:dbaf:a7c%2
+   Default Gateway . . . . . . . . . : ::
+
+PS C:\> Show-Command Get-Service
+
+PS C:\>  Stop-Service M* -whatif
+What if: Performing the operation "Stop-Service" on target "Downloaded Maps Manager (MapsBroker)".
+What if: Performing the operation "Stop-Service" on target "McAfee WebAdvisor (McAfee WebAdvisor)".
+What if: Performing the operation "Stop-Service" on target "McAfee AP Service (McAPExe)".
+What if: Performing the operation "Stop-Service" on target "McAfee Activation Service (McAWFwk)".
+What if: Performing the operation "Stop-Service" on target "McAfee CSP Service (mccspsvc)".
+What if: Performing the operation "Stop-Service" on target "McSecDashboardService (McSecDashboardService)".
+What if: Performing the operation "Stop-Service" on target "MessagingService_e3ea3f (MessagingService_e3ea3f)".
+What if: Performing the operation "Stop-Service" on target "McAfee Firewall Core Service (mfefire)".
+What if: Performing the operation "Stop-Service" on target "McAfee Service Controller (mfemms)".
+What if: Performing the operation "Stop-Service" on target "McAfee Validation Trust Protection Service (mfevtp)".
+What if: Performing the operation "Stop-Service" on target "McAfee Module Core Service (ModuleCoreService)".
+What if: Performing the operation "Stop-Service" on target "Windows Defender Firewall (MpsSvc)".
+What if: Performing the operation "Stop-Service" on target "Distributed Transaction Coordinator (MSDTC)".
+What if: Performing the operation "Stop-Service" on target "Microsoft iSCSI Initiator Service (MSiSCSI)".
+What if: Performing the operation "Stop-Service" on target "Windows Installer (msiserver)".
+
+
+PS C:\> $teks = “Nama : Prima Ananda”
+
+PS C:\> Write-host $teks
+Nama : Prima Ananda
+
