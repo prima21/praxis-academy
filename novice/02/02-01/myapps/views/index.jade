@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Simple Javascript Calendar
+    |     
+    link(href='stylesheets/calendar.css', rel='stylesheet')
+    |     
+    script(src='javascripts/calendar.js')
+  |   
+  body
+    #page-body
+      // [PERIOD SELECTOR]
+      #cal-date
+        select#cal-mth
+        |       
+        select#cal-yr
+        |       
+        input#cal-set(type='button', value='SET')
+      // [CALENDAR]
+      #cal-container
+      // [EVENT]
+      #cal-event

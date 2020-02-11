@@ -1,0 +1,20 @@
+.color
+{
+    color:#ff6600;
+    margin-left:40px;
+    font-size:22px;
+}
+.style
+{
+    background-color: #333;
+}
+Input[type="button"]
+{
+    padding:10px 20px;
+}
+input[type="text"]
+ {
+    padding:10px 2.5%;
+    width:100%;
+    font-size:20px;
+}
